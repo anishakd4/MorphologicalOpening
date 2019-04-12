@@ -9,6 +9,8 @@ int main(){
     //Read image on which opening operation is to be applied on
     Mat image = imread("../assets/opening.png");
 
+    //In some cases, it may be required to implement a particular morphological operation more than once. 
+    //In those cases, we need to define the number of iterations required.
     //Initializing number of iterations
     int iterations = 1;
 
